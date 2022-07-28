@@ -190,6 +190,7 @@ font-size: 0.75em;
     max-width: 12em;
     max-height: 2.5em;
     padding: 10px;
+    margin-top: 10px;
 }
 
 h2 {
@@ -242,6 +243,10 @@ h3 {
     }
 }
 
+.contact {
+    margin-bottom: 50px;
+}
+
 .contact a {
     position: relative;
     display: inline-block;
@@ -266,6 +271,7 @@ h3 {
 
  .disable {
     pointer-events: none;
+    background-color: #D0ADAD;
  }
 
  .subtext {
@@ -276,9 +282,36 @@ h3 {
  }
 
  .c-a-col {
-    padding: 0 20px 0 20px;
+    padding: 0 20px 5px 20px;
  }
 
 .logo {
     padding-right: 5px;
+}
+
+.footer-content {
+    background-color: #242424;
+    color: white;
+    text-align: center;
+}
+
+.footer {  
+    font-size: 8px;
+}
+
+#contactme h2 {
+    color: #242424;
+}
+
+#contactme a {
+    color: white;
+}
+
+#contactme p {
+    margin: 15px 0 5px 0;
+}
+
+
+#contactme .header-container {
+    background-color: #F57F7F;
 }
