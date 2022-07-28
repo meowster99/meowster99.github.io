@@ -1,0 +1,284 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+@viewport {
+    width: device-width;
+    zoom: 1.1;
+    min-zoom: 0.6;
+    max-zoom: 1.5;
+    user-zoom: fixed;
+    }
+
+.jumbotron {
+    min-height: 100vh /2;
+    /* background-color: #ECEAEE; */
+    background-color: #212529;
+    box-shadow: .5px .5px 10px darkgrey;
+    margin-bottom: 30px;
+}
+
+/* @media screen and (min-width: 1100px) {
+    .jumbotron {
+        min-height: 100vh;
+    }
+} */
+
+.container-body {
+    background-color: #F5F5F5;
+}
+
+.navbar-link {
+    color: #F5F5F5;
+}
+
+.navbar-link:hover {
+    color: #F57F7F;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s; 
+ }
+
+h1 {
+    padding: 0px 50px 0px 0px;
+    font-size: 4em;
+    color: white;
+}
+
+.jumbotron p {
+    color: white;
+}
+
+h1 b {
+    font-size: 125%;
+    color: #F57F7F;
+ }
+
+div a {
+position: relative;
+display: inline-block;
+outline: none;
+color: #f5f5f5;
+text-decoration: none;
+text-transform: lowercase;
+letter-spacing: 1px;
+font-weight: 400;
+font-size: 0.75em;
+}
+
+ @media screen and (min-width: 0px) and (max-width: 800px) {
+    h1 {
+        font-size: 3em;
+    }
+    div a {
+        font-size: 0.6em;
+    }
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 30px 0px;
+    /* border-bottom: 3px ridge; */
+    /* border-bottom-color: #f5f5f6; */
+    min-height: 150px
+}
+ 
+.avatar {
+    margin-top: 1.75em;
+    position: absolute;
+    height: auto;
+    max-width: 17.8rem;
+    padding-right: 50px;
+}
+
+.title-wrapper {
+    padding-left: 50px;
+    justify-content: end;
+}
+
+.background {
+    max-width: 20rem;
+}
+
+.realignment {
+    align-self: flex-start;
+}
+
+/* @media screen and (min-width: 600px) and (max-width: 1000px) {
+  .avatar { 
+    padding-right: 100px;
+    }
+    .realignment {
+        align-content: center;
+    } */
+/* } */
+
+.action-button-download-light {
+    width: fit-content + 3px;
+    background: #D38D8D;
+    max-width: 16em;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin: 10px 5px;
+    text-align:center
+}
+
+.action-button-download-dark {
+    width: fit-content + 3px;
+    max-width: 16em;
+    background: #B57F7F;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin: 10px 5px;
+    text-align:center
+}
+
+.light-for-dark {
+    background: #F57F7F;
+}
+
+.dark-for-dark {
+    background: #DA9797;
+}
+
+
+.action-button-download-light:hover,
+.action-button-download-dark:hover {
+    color: #242424;
+    box-shadow: 0 0 0 1px white, 0 0 0 2px #242424;
+}
+
+.button-row {
+    justify-content: end;
+    padding-right: 50px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 600px) {
+    .button-row { 
+      justify-content: center;
+      }
+  }
+
+.container {
+    justify-content: center;
+    display: flex;
+}
+
+.content-box {
+    width: 1200px;
+    box-shadow: .5px .5px 10px #ECEAEA;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin:20px;
+}
+
+.header-container {
+    background-color: #B57F7F;
+    border-radius: 5px;
+    width: fit-content + 5px;
+    max-width: 12em;
+    max-height: 2.5em;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #F5F5F5;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.header-alignment {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    padding-top: 15px;
+    font-family: 'JetBrains mono', monospace;
+    font-size: 1.25em;
+}
+
+.body-content {
+    padding: 20px;
+}
+
+.body-content p {
+    font-size: 12px;
+}
+
+.icon-wrapper { 
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+.first {
+    border-right: 1.5px ridge;
+    border-right-color: #f5f5f6;
+}
+
+@media screen and (max-width:767px) {
+    .icon-wrapper {
+        margin-bottom: 10px;
+    }
+    .first {
+        border-bottom: 1.5px ridge;
+        border-bottom-color: #f5f5f6;
+        border-right: 0px;
+    }
+}
+
+.contact a {
+    position: relative;
+    display: inline-block;
+    outline: none;
+    color: #242424;
+    text-decoration: none;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 0.75em;
+ }
+
+ .contact a:hover {
+    color: #E07373;
+    text-decoration: underline;
+ }
+
+ .header-icon {
+    padding: 10px;
+    padding-left: 30px;
+ }
+
+ .disable {
+    pointer-events: none;
+ }
+
+ .subtext {
+    margin: 0;
+    padding: 0;
+    font-size: 70%;
+    color: darkgray;
+ }
+
+ .c-a-col {
+    padding: 0 20px 0 20px;
+ }
+
+.logo {
+    padding-right: 5px;
+}
